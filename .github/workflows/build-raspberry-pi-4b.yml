@@ -1,4 +1,4 @@
-name: NanoPi-R4S-4G
+name: Raspberry-Pi-4B
 
 on:
   repository_dispatch:
@@ -13,7 +13,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: configs/build.config
+  CONFIG_FILE: configs/build-raspberry-pi-4b.config
   DIY_P1_SH: scripts/diy-part1.sh
   DIY_P2_SH: scripts/diy-part2.sh
   UPLOAD_BIN_DIR: false
@@ -123,7 +123,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: NanoPi-R4S-4G${{ env.FILE_DATE }}
+        name: Raspberry-Pi-4B${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     - name: Generate release tag

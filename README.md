@@ -1,6 +1,6 @@
-# NanoPi-R4S-4G
+# Build-OpenWrt
 
-&nbsp;&nbsp;&nbsp;&nbsp;Build OpenWrt for NanoPi-R4S-4G using Github Actions.
+&nbsp;&nbsp;&nbsp;&nbsp;Build OpenWrt using Github Actions.
 
 ## Tips
 

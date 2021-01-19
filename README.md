@@ -10,9 +10,23 @@
 ## Features
 
 - Light OpenWrt
+- Add luci-app-adblock
+- Add luci-app-adbyby-plus
+- Add luci-app-adguardhome
+- Add luci-app-advanced-reboot
+- Add luci-app-advancedsetting
+- Add luci-app-aria2
+- Add luci-app-autoreboot
+- Add luci-app-ddns
+- Add luci-app-diskman
+- Add luci-app-netdata
 - Add luci-app-openclash
 - Add luci-app-passwall
 - Add luci-app-ssr-plus
+- Add luci-app-ttyd
+- Add luci-app-v2ray-server
+- Add luci-theme-argon
+- Add luci-theme-opentomcat
 - Replace default shell to zsh
 
 ## Acknowledgments

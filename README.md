@@ -2,6 +2,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Build OpenWrt using Github Actions.
 
+## Support Drivce
+
+- Raspberry-Pi-4B
+- NanoPi-R4S-4G
+
 ## Tips
 
 - Default IP: 192.168.1.1

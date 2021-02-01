@@ -25,6 +25,8 @@ git clone --depth=1 https://github.com/zcy85611/openwrt-luci-kcp-udp
 
 git clone --depth=1 https://github.com/aicccu/luci-theme-opentomcat
 
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
+
 popd
 
 # Change default shell to zsh

@@ -23,7 +23,7 @@ git clone --depth=1 https://github.com/lisaac/luci-lib-docker
 
 git clone --depth=1 https://github.com/zcy85611/openwrt-luci-kcp-udp
 
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
+git clone --depth=1 https://github.com/aicccu/luci-theme-opentomcat.git
 
 popd
 

@@ -5,10 +5,26 @@ pushd package/lean
 git clone --depth=1 https://github.com/fw876/helloworld
 popd
 
-# Add kenzok8's package
-pushd package
-git clone --depth=1 https://github.com/kenzok8/openwrt-packages
-git clone --depth=1 https://github.com/kenzok8/small
+# Add others package
+mkdir package/community
+pushd package/community
+
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
+
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+
+git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman
+mkdir parted
+cp luci-app-diskman/Parted.Makefile parted/Makefile
+
+rm -rf ../lean/luci-app-docker
+git clone --depth=1 https://github.com/KFERMercer/luci-app-dockerman
+git clone --depth=1 https://github.com/lisaac/luci-lib-docker
+
+git clone --depth=1 https://github.com/zcy85611/openwrt-luci-kcp-udp
+
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
+
 popd
 
 # Change default shell to zsh

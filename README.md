@@ -1,6 +1,6 @@
 # Build-OpenWrt
 
-&nbsp;&nbsp;&nbsp;&nbsp;Build OpenWrt using Github Actions.
+- Build OpenWrt using Github Actions.
 
 ## Support Drivce
 

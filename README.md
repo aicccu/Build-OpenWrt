@@ -20,7 +20,13 @@
 - Add luci-app-aria2
 - Add luci-app-autoreboot
 - Add luci-app-ddns
-- Add luci-app-openclas
+- Add luci-app-frpc
+- Add luci-app-frps
+- Add luci-app-nps
+- Add luci-app-openclash
+- Add luci-app-openvpn
+- Add luci-app-openvpn-server
+- Add luci-app-sfe
 - Add luci-app-v2ray-server
 - Add luci-theme-argon
 - Add luci-theme-opentomcat

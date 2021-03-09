@@ -10,8 +10,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/1715173329/lede/tree/mbedtls-armv8
+  REPO_BRANCH: mbedtls-armv8
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: configs/build-nanopi-r4s-4g.config
   DIY_P1_SH: scripts/diy-part1.sh

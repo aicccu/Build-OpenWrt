@@ -10,7 +10,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/1715173329/lede/tree/mbedtls-armv8
+  REPO_URL: https://github.com/1715173329/lede
   REPO_BRANCH: mbedtls-armv8
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: configs/build-nanopi-r4s-4g.config

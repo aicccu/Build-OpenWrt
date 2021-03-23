@@ -12,7 +12,7 @@ pushd package/community
 git clone --depth=1 https://github.com/SuLingGG/luci-app-adguardhome.git
 
 # Add luci-app-passwall
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall.git
 
 # Add OpenClash
 git clone --depth=1 -b master https://github.com/vernesong/OpenClash.git

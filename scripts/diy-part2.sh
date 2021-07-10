@@ -1,9 +1,9 @@
 # Diy-Part2
 
 # Add luci-app-ssr-plus
-pushd package/lean
-git clone --depth=1 https://github.com/fw876/helloworld.git
-popd
+# pushd package/lean
+# git clone --depth=1 https://github.com/fw876/helloworld.git
+# popd
 
 mkdir package/community
 pushd package/community

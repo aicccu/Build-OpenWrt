@@ -1,9 +1,9 @@
 # Diy-Part2
 
 # Add luci-app-ssr-plus
-pushd package/lean
-git clone --depth=1 https://github.com/fw876/helloworld.git
-popd
+# pushd package/lean
+# git clone --depth=1 https://github.com/fw876/helloworld.git
+# popd
 
 mkdir package/community
 pushd package/community
@@ -16,6 +16,11 @@ git clone --depth=1 https://github.com/SuLingGG/luci-app-adguardhome.git
 
 # Add OpenClash
 git clone --depth=1 -b master https://github.com/vernesong/OpenClash.git
+
+# Add luci-app-diskman
+git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman
+mkdir parted
+cp luci-app-diskman/Parted.Makefile parted/Makefile
 
 # Add luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
